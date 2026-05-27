@@ -1,28 +1,28 @@
 class Trojan < Formula
   desc "Developer-first security CLI. Catch vulnerabilities before they ship."
   homepage "https://trojan.dev"
-  version "0.1.1"
+  version "0.1.2"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.1/trojan_0.1.1_darwin_arm64.tar.gz"
-      sha256 "009eca7fb996d6b49ec890d8739133de5076301bc45bbc9bbeb0680c7abf9eb4"
+      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.2/trojan_0.1.2_darwin_arm64.tar.gz"
+      sha256 "700d8361cf2d802f60d23559f4044ac1925d2f7258ef2dca9f2a976c48174ecf"
     end
     on_intel do
-      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.1/trojan_0.1.1_darwin_amd64.tar.gz"
-      sha256 "9844a7a0b82f53e100b516d2e155b173fabea60cc5aaa37d8c0785e449a1d226"
+      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.2/trojan_0.1.2_darwin_amd64.tar.gz"
+      sha256 "410232f79a36b1d11a9f5d61417de3be8b98a51a33668f470307e9077dfc7cae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.1/trojan_0.1.1_linux_arm64.tar.gz"
-      sha256 "0c62c27de7d862c52f93418777f184eb1ac711821fc73e4fb25e4cddb7d4471d"
+      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.2/trojan_0.1.2_linux_arm64.tar.gz"
+      sha256 "0e9309e3d333d30050eed01d60e1f33b5bb1ccc85591251f56154af5fdc4436f"
     end
     on_intel do
-      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.1/trojan_0.1.1_linux_amd64.tar.gz"
-      sha256 "9ccc5331e4c12876ee511ca72ed66d698b344c5ad9b1ecb2efcf1a0f713098f6"
+      url "https://github.com/dev-zeph/Trojan/releases/download/v0.1.2/trojan_0.1.2_linux_amd64.tar.gz"
+      sha256 "21c3a41c37088948fbdbb39150a9b784459d7adfbda9d90bd68ea6ef58ec1a6d"
     end
   end
 
